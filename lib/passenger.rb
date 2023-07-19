@@ -18,5 +18,4 @@ class Passenger
   def drive
     @drive = true
   end
-
 end
