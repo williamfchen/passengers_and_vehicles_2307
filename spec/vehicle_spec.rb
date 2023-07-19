@@ -29,6 +29,4 @@ RSpec.describe Vehicle do
     expect(vehicle.passengers).to eq([charlie, jude, taylor])
     expect(vehicle.num_adults).to eq(2)
   end
-
-
 end

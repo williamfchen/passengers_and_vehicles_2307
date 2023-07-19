@@ -25,5 +25,4 @@ class Vehicle
     adults = passengers.find_all { |person| person.adult? }
     adults.count
   end
-
 end
