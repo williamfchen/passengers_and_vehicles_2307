@@ -20,4 +20,11 @@ RSpec.describe Passenger do
     charlie.drive
     expect(charlie.driver?).to be true
   end
+
+  it '.minor?' do
+    charlie = Passenger.new({"name" => "Charlie", "age" => 18})
+    taylor = Passenger.new({"name" => "Taylor", "age" => 12})
+    expect(charlie.minor?).to be false
+    expect(taylor.minor?).to be true
+  end
 end

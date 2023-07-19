@@ -18,4 +18,8 @@ class Passenger
   def drive
     @drive = true
   end
+
+  def minor?
+    @age < 18
+  end
 end
